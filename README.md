@@ -49,6 +49,15 @@ security:
     authorization: 'enabled'
 ```
 
+Modify the following line
+
+```yaml
+# network interfaces
+net:
+    port: 27017
+    bindIp: 0.0.0.0   #default value is 127.0.0.1
+```
+
 Restart mongodb server
 
 ```bash
