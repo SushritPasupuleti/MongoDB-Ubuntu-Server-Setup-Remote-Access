@@ -35,3 +35,16 @@ db.createUser({
              ]
   });
 ```
+
+## Enable MongoDB Auth
+
+```bash
+sudo nano /etc/mongod.conf
+```
+
+Add the following line
+
+```yaml
+security:
+    authorization: 'enabled'
+```
