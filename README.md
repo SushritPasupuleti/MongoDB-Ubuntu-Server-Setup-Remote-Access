@@ -48,3 +48,9 @@ Add the following line
 security:
     authorization: 'enabled'
 ```
+
+Restart mongodb server
+
+```bash
+sudo service mongod restart
+```
